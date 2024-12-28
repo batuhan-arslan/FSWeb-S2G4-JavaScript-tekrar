@@ -51,7 +51,7 @@ function KareninAlani(kenaruzunlugu) {
 */
 
 function CemberinCevresi(r) {
-  const pi = 3.14;
+  
   let cevre = 2 * pi * r;
   return cevre;
 }
@@ -66,9 +66,14 @@ console.log(CemberinCevresi(5));
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
-function CemberinAlani(/* kodlar buraya */) {
-  /* kodlar buraya */
+function CemberinAlani(r, pi) {
+  
+  let alan = pi * Math.pow(r, 2) 
+  return alan;
+  
 }
+
+console.log(CemberinAlani(3,pi));
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
